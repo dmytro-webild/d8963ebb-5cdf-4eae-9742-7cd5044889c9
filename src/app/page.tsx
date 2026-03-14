@@ -124,8 +124,10 @@ export default function LandingPage() {
           useInvertedBackground={false}
           carouselMode="buttons"
           className="py-20"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg opacity-85 max-w-2xl"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold"
+          textBoxDescriptionClassName="text-lg opacity-85 max-w-2xl"
+          cardTitleClassName="text-2xl font-semibold"
+          cardDescriptionClassName="text-base opacity-80"
         />
       </div>
 
@@ -174,8 +176,8 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           className="py-20"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg opacity-85 max-w-2xl"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold"
+          textBoxDescriptionClassName="text-lg opacity-85 max-w-2xl"
           nameClassName="font-semibold text-lg"
           roleClassName="text-sm opacity-75"
           companyClassName="text-sm opacity-60"
@@ -213,8 +215,8 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           className="py-20"
-          titleClassName="text-4xl md:text-5xl font-bold"
-          descriptionClassName="text-lg opacity-85 max-w-2xl"
+          textBoxTitleClassName="text-4xl md:text-5xl font-bold"
+          textBoxDescriptionClassName="text-lg opacity-85 max-w-2xl"
           nameClassName="text-2xl font-bold"
           priceClassName="text-3xl font-bold"
           featureItemClassName="flex items-center gap-2"
