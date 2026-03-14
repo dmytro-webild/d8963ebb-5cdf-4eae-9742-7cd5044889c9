@@ -100,22 +100,22 @@ export default function LandingPage() {
             {
               title: "Instant Problem Solving",              description: "Get immediate answers to any math problem with comprehensive solutions and multiple solving approaches",              icon: Lightning,
               mediaItems: [
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Instant Solutions" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Solution Display" }
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png?_wi=1", imageAlt: "Instant Solutions" },
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png?_wi=2", imageAlt: "Solution Display" }
               ]
             },
             {
               title: "Personalized Learning Paths",              description: "AI-adaptive curriculum that adjusts difficulty and content based on your performance and learning style",              icon: Target,
               mediaItems: [
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-dashboard-interface-showing-personaliz-1773503607964-043f0278.png", imageAlt: "Personalized Dashboard" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-dashboard-interface-showing-personaliz-1773503607964-043f0278.png", imageAlt: "Learning Analytics" }
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-dashboard-interface-showing-personaliz-1773503607964-043f0278.png?_wi=1", imageAlt: "Personalized Dashboard" },
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-dashboard-interface-showing-personaliz-1773503607964-043f0278.png?_wi=2", imageAlt: "Learning Analytics" }
               ]
             },
             {
               title: "Detailed Explanations",              description: "Comprehensive breakdowns of every problem with visual aids, formulas, and alternative solving methods",              icon: BookOpen,
               mediaItems: [
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-comprehensive-explanation-interface-br-1773503607428-a2da9025.png", imageAlt: "Step-by-Step Guides" },
-                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-comprehensive-explanation-interface-br-1773503607428-a2da9025.png", imageAlt: "Visual Explanations" }
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-comprehensive-explanation-interface-br-1773503607428-a2da9025.png?_wi=1", imageAlt: "Step-by-Step Guides" },
+                { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-comprehensive-explanation-interface-br-1773503607428-a2da9025.png?_wi=2", imageAlt: "Visual Explanations" }
               ]
             }
           ]}
@@ -163,12 +163,12 @@ export default function LandingPage() {
           tagIcon={Star}
           tagAnimation="blur-reveal"
           testimonials={[
-            { id: "t1", name: "Sarah Chen", role: "High School Student", company: "Lincoln High School", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png", imageAlt: "Sarah Chen" },
-            { id: "t2", name: "Marcus Johnson", role: "Mathematics Tutor", company: "Premier Education Center", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-an-experience-1773503607053-55d0efc2.png", imageAlt: "Marcus Johnson" },
+            { id: "t1", name: "Sarah Chen", role: "High School Student", company: "Lincoln High School", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png?_wi=1", imageAlt: "Sarah Chen" },
+            { id: "t2", name: "Marcus Johnson", role: "Mathematics Tutor", company: "Premier Education Center", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-an-experience-1773503607053-55d0efc2.png?_wi=1", imageAlt: "Marcus Johnson" },
             { id: "t3", name: "Priya Patel", role: "College Student", company: "State University", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-diverse-you-1773503607503-83337a77.png", imageAlt: "Priya Patel" },
             { id: "t4", name: "Dr. James Wilson", role: "Mathematics Department Head", company: "Central Academy", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-another-educa-1773503607073-4610eba2.png", imageAlt: "Dr. James Wilson" },
-            { id: "t5", name: "Emma Rodriguez", role: "Homeschool Parent", company: "Independent Learner", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png", imageAlt: "Emma Rodriguez" },
-            { id: "t6", name: "Prof. David Lee", role: "University Instructor", company: "Tech Institute", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-an-experience-1773503607053-55d0efc2.png", imageAlt: "Prof. David Lee" }
+            { id: "t5", name: "Emma Rodriguez", role: "Homeschool Parent", company: "Independent Learner", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png?_wi=2", imageAlt: "Emma Rodriguez" },
+            { id: "t6", name: "Prof. David Lee", role: "University Instructor", company: "Tech Institute", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-an-experience-1773503607053-55d0efc2.png?_wi=2", imageAlt: "Prof. David Lee" }
           ]}
           gridVariant="three-columns-all-equal-width"
           animationType="slide-up"
