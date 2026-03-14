@@ -98,7 +98,7 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           features={[
             {
-              title: "Instant Problem Solving",              description: "Get immediate answers to any math problem with comprehensive solutions and multiple solving approaches",              icon: Zap,
+              title: "Instant Problem Solving",              description: "Get immediate answers to any math problem with comprehensive solutions and multiple solving approaches",              icon: Lightning,
               mediaItems: [
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Instant Solutions" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Solution Display" }
@@ -126,8 +126,6 @@ export default function LandingPage() {
           className="py-20"
           titleClassName="text-4xl md:text-5xl font-bold"
           descriptionClassName="text-lg opacity-85 max-w-2xl"
-          cardTitleClassName="text-2xl font-semibold"
-          cardDescriptionClassName="text-base opacity-80"
         />
       </div>
 
@@ -180,6 +178,7 @@ export default function LandingPage() {
           descriptionClassName="text-lg opacity-85 max-w-2xl"
           nameClassName="font-semibold text-lg"
           roleClassName="text-sm opacity-75"
+          companyClassName="text-sm opacity-60"
         />
       </div>
 
@@ -219,7 +218,6 @@ export default function LandingPage() {
           nameClassName="text-2xl font-bold"
           priceClassName="text-3xl font-bold"
           featureItemClassName="flex items-center gap-2"
-          companyClassName="text-sm opacity-60"
         />
       </div>
 
