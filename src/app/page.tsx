@@ -98,7 +98,7 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           features={[
             {
-              title: "Instant Problem Solving",              description: "Get immediate answers to any math problem with comprehensive solutions and multiple solving approaches",              icon: Zap,
+              title: "Instant Problem Solving",              description: "Get immediate answers to any math problem with comprehensive solutions and multiple solving approaches",              icon: Lightning,
               mediaItems: [
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Instant Solutions" },
                 { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-clean-interface-showing-instant-mathem-1773503608244-e8c5302b.png", imageAlt: "Solution Display" }
@@ -163,7 +163,7 @@ export default function LandingPage() {
           tagIcon={Star}
           tagAnimation="blur-reveal"
           testimonials={[
-            { id: "t1", name: "Sarah Chen", role: "High School Student", company: "Lincoln High School", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png", imageAlt: "Sarah Chen" },
+            { id: "t1", name: "Sarah Chen", role: "High School Student", company: "Lincoln High School", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-confident-y-1773503606668-cfaafef6.png", imageAlt: "Sarah Chen", companyClassName: "text-sm opacity-60" },
             { id: "t2", name: "Marcus Johnson", role: "Mathematics Tutor", company: "Premier Education Center", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-an-experience-1773503607053-55d0efc2.png", imageAlt: "Marcus Johnson" },
             { id: "t3", name: "Priya Patel", role: "College Student", company: "State University", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-a-diverse-you-1773503607503-83337a77.png", imageAlt: "Priya Patel" },
             { id: "t4", name: "Dr. James Wilson", role: "Mathematics Department Head", company: "Central Academy", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AwVGCgiOlF6OWpAYiYTDevw0en/a-professional-portrait-of-another-educa-1773503607073-4610eba2.png", imageAlt: "Dr. James Wilson" },
@@ -194,7 +194,7 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           plans={[
             {
-              id: "starter",              name: "Starter",              price: "Free",              badge: "Perfect for Testing",              badgeIcon: Zap,
+              id: "starter",              name: "Starter",              price: "Free",              badge: "Perfect for Testing",              badgeIcon: Lightning,
               buttons: [{ text: "Get Started", href: "#contact" }],
               features: ["Limited daily problems", "Basic problem solving", "Standard explanations", "Progress tracking", "Mobile access"]
             },
